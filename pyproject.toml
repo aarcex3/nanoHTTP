@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nanohttp"
+version = "0.1.0"
+description = "\"A microframework with zero dependecies\""
+authors = ["Agustin Arce <agustinarceprincich@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-sugar = "^1.0.0"
+tox = "^4.18.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
